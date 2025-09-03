@@ -1,4 +1,9 @@
 package interfaces.impl;
 
-public class Factura {
+public interface Factura {
+
+    public double calcularTotal();
+    public String obtenerDetalles();
+
+
 }
